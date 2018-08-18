@@ -1,5 +1,195 @@
-<html>
-<body>
-    <hl>welcome to coltonhenning.me</hl> 
-</body>
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <title>Colton Henning</title>        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Colton Henning's Personal Website"/>
+        <meta name="author" content="Colton Henning" />
+
+        <!-- Favicon -->
+        <!--<link rel="shortcut icon" href="favicon.ico">-->
+
+        <!-- Bootstrap CSS -->
+        <link href="bootstrap-assets/css/bootstrap.css" rel="stylesheet">
+
+        <!-- Varela Round Font -->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+        
+        <!-- Custom CSS -->
+        <link href="css/main.css" rel="stylesheet">        
+
+    </head>
+
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-fixed-top fill scrolled">
+            <!-- Hamburger Icon for mobile -->
+            <!--<input type="button" name="answer" value="Show Div" onclick="expandoverlay()"/>-->            
+            <button id="navexpander" class="navbar-toggle collapsed" type="button" onclick="expandoverlay()" class="navbar-toggle collapsed" data-toggle="collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar" id="bar1"></span>
+                <span class="icon-bar" id="bar2"></span>
+                <span class="icon-bar" id="bar3"></span>
+            </button>
+            
+            <!-- Regular Navigation Bar -->
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li><a href="#photography">Photography</a></li>
+                    <li><a href="#hardware">Hardware</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#welcome">Welcome</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--End Navigation Bar-->
+
+        <!-- Welcome -->
+        <div class="container-fluid" id="welcome">
+            <div class="video-container">
+                <div class="tint"></div>
+                <video id="main-video" loop="true" autoplay="true" muted="true" preload="true"> 
+                    <source src="images/divergingdiamond.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="container text-center bg-white" id="welcometext">
+                <h1 class="display-4">Colton Henning</h1>
+                <p class="lead">Build. Play. Photograph.</p>
+            </div>
+        </div>
+
+        <!-- Starting the info pages -->
+        <div class="container-fluid text-center" id="about">
+            <div class="container text-center">
+                <h1>Who Am I</h1>
+                <div class="pfblock-line"></div>
+                <p>St. Louis University '22</p>
+                <p>Aviation Science</p>
+                <p>Engineer</p>
+                <p>Photographer</p>
+            </div>
+        </div>
+        
+
+        <div class="container-fluid text-center" id="hardware">
+            
+            <div class="container text-center">
+                <h1>Hardware</h1>
+                <div class="pfblock-line"></div>
+                <p id="hardwarecap">I build stuff</p>
+            </div>
+
+            <div class="container cleanpics">     
+                    <div class="row">
+
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+        
+                            <div class="grid wow zoomIn">
+                                <figure class="effect-bubba">
+                                    <img src="images/blurredworkshop.png">
+                                    <figcaption>
+                                        <h2>Sail<span>Boat</span></h2>
+                                        <p>I like the lake. I can sail very far on my cool boat</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+        
+                        </div>
+        
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+        
+                            <div class="grid wow zoomIn">
+                                <figure class="effect-bubba">
+                                    <img src="images/blurredworkshop.png">
+                                    <figcaption>
+                                        <h2>3D <span>Printing</span></h2>
+                                        <p>Built my own 3D Printer and offer printing services for some $$$$$</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+        
+                        </div>
+        
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+        
+                            <div class="grid wow zoomIn" >
+                                <figure class="effect-bubba">
+                                    <img src="images/blurredworkshop.png">
+                                    <figcaption>
+                                        <h2><span>Car</span> Stuff</h2>
+                                        <p>Rain X, clean windows, my own stereo, flex gang. Fixed my truck up to get all the ladies</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+        
+                        </div>
+        
+                    </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center" id="photography">
+            
+            <div class="container text-center">
+                <h1>Photography</h1>
+                <div class="pfblock-line"></div>
+                <p id="photographycap">I take pictures of stuff</p>
+            </div>
+
+            <div class="container">     
+                <div class="row">
+
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+    
+                        <div class="grid wow zoomIn">
+                            <figure class="effect-bubba">
+                                <img src="images/blurredworkshop.png">
+                                <figcaption>
+                                    <h2>Sail<span>Boat</span></h2>
+                                    <p>I like the lake. I can sail very far on my cool boat</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+    
+                    </div>
+    
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+    
+                        <div class="grid wow zoomIn">
+                            <figure class="effect-bubba">
+                                <img src="images/blurredworkshop.png" alt="workshop">
+                                <figcaption>
+                                    <h2>3D <span>Printing</span></h2>
+                                    <p>Built my own 3D Printer and offer printing services for some $$$$$</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+    
+                    </div>
+    
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+    
+                        <div class="grid wow zoomIn" >
+                            <figure class="effect-bubba">
+                                <img src="images/blurredworkshop.png">
+                                <figcaption>
+                                    <h2><span>Car</span> Stuff</h2>
+                                    <p>Rain X, clean windows, my own stereo, flex gang. Fixed my truck up to get all the ladies</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+    
+                    </div>
+        
+                </div>
+            </div> <!-- .contaier -->
+        </div> <!--#photography-->
+        <div class="container-fluid text-center" id="footer">
+            <h1>Fin for now</h1>
+            <p>Contact me at yadayada</p>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
 </html>
