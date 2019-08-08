@@ -9,7 +9,8 @@
 */
 
 body {
-	font: 300 14px/1.8 'Raleway', sans-serif;
+	/* font: 300 14px/1.8 'Raleway', sans-serif; */
+	font-family: 'Poppins', sans-serif;
 	color: #666;
 	overflow-x: hidden;
 }
@@ -394,7 +395,6 @@ textarea.form-control {
 }
 
 .start {
-	font-family: Raleway, "Times New Roman", Times, sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	text-transform: none;
@@ -564,7 +564,7 @@ textarea.form-control {
 .navbar-custom .navbar-brand {
 	font-weight: 700;
 	font-size: 22px;
-    font-family: Lobster, cursive;
+    /* font-family: Lobster, cursive; */
 }
 
 .navbar-custom .dropdown-menu {
