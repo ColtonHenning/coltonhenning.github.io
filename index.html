@@ -1,195 +1,342 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head> 
-        <meta charset="UTF-8">
-        <title>Colton Henning</title>        
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Colton Henning's Personal Website"/>
-        <meta name="author" content="Colton Henning" />
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-        <!-- Favicon -->
-        <!--<link rel="shortcut icon" href="favicon.ico">-->
+	<title>Colton Henning</title>
 
-        <!-- Bootstrap CSS -->
-        <link href="bootstrap-assets/css/bootstrap.css" rel="stylesheet">
+	<!-- CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+	<link href="css/simple-line-icons.css" rel="stylesheet" media="screen">
+	<link href="css/animate.css" rel="stylesheet">
+    
+	<!-- Custom styles CSS -->
+	<link href="css/style.css" rel="stylesheet" media="screen">
+    
+    <script src="js/modernizr.custom.js"></script>
+       
+</head>
+<body>
 
-        <!-- Varela Round Font -->
-        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-        
-        <!-- Custom CSS -->
-        <link href="css/main.css" rel="stylesheet">        
+	<!-- Preloader -->
 
-    </head>
+	<div id="preloader">
+		<div id="status"></div>
+	</div>
 
-    <body>
-        <!-- Navigation Bar -->
-        <nav class="navbar navbar-fixed-top fill scrolled">
-            <!-- Hamburger Icon for mobile -->
-            <!--<input type="button" name="answer" value="Show Div" onclick="expandoverlay()"/>-->            
-            <button id="navexpander" class="navbar-toggle collapsed" type="button" onclick="expandoverlay()" class="navbar-toggle collapsed" data-toggle="collapse" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar" id="bar1"></span>
-                <span class="icon-bar" id="bar2"></span>
-                <span class="icon-bar" id="bar3"></span>
-            </button>
+	<!-- Home start -->
+
+	<section id="home" class="pfblock-image screen-height">
+        <div class="home-overlay"></div>
+		<div class="intro">
+			<h1>Colton Henning</h1>
+			<div class="start">
+
+				<p>St. Louis University '22</p>
+				
+				<a href="https://www.youtube.com/user/windows7323">Youtube</a> | 
+				<a href="">Resume</a> |
+				<a href="https://www.linkedin.com/in/colton-henning-a41872171">Linkedln</a>
+
+			</div>
+		</div>
+
+        <a href="#services">
+		<div class="scroll-down">
+            <span>
+                <i class="fa fa-angle-down fa-2x"></i>
+            </span>
+		</div>
+        </a>
+
+	</section>
+
+	<!-- Home end -->
+
+	<!-- Navigation start -->
+
+	<header class="header">
+
+		<nav class="navbar navbar-custom" role="navigation">
+
+			<div class="container">
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">Colton Henning</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="custom-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#services">About</a></li>
+                        <li><a href="#portfolio">My Work</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+
+			</div><!-- .container -->
+
+		</nav>
+
+	</header>
+
+	<!-- Navigation end -->
+
+    <!-- Services start -->
+
+	<section id="services" class="pfblock pfblock-gray">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-6 col-sm-offset-3">
+
+					<div class="pfblock-header wow fadeInUp">
+						<h2 class="pfblock-title">About Me</h2>
+						<div class="pfblock-line"></div>
+						<div class="pfblock-subtitle">
+							St. Louis University '22 student interested in aviation, photography, and technology. Check out some of my work below
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-sm-4">
+
+					<div class="iconbox wow slideInLeft">
+						<div class="iconbox-icon">
+							<span class="icon-paper-plane"></span>
+						</div>
+						<div class="iconbox-text">
+							<h3 class="iconbox-title">Aviation</h3>
+							<div class="iconbox-desc">
+								Enrolled in a bachelors degree program in aviation science. Licensed private pilot
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-sm-4">
+
+					<div class="iconbox wow slideInLeft">
+						<div class="iconbox-icon">
+							<span class="icon-camera"></span>
+						</div>
+						<div class="iconbox-text">
+							<h3 class="iconbox-title">Photography</h3>
+							<div class="iconbox-desc">
+								Amateur photographer proficient with the Adobe Suite.
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-sm-4">
+
+					<div class="iconbox wow slideInRight">
+						<div class="iconbox-icon">
+							<span class="icon-rocket"></span>
+						</div>
+						<div class="iconbox-text">
+							<h3 class="iconbox-title">Technology</h3>
+							<div class="iconbox-desc">
+								Experience with 3D printing, modeling, and basic programming. Available for print consulting.
+							</div>
+						</div>
+					</div>
+
+				</div>
+				
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</section>
+
+	<!-- Services end -->
+    
+	<!-- Portfolio start -->
+
+	<section id="portfolio" class="pfblock">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-6 col-sm-offset-3">
+
+					<div class="pfblock-header wow fadeInUp">
+						<h2 class="pfblock-title">My work</h2>
+						<div class="pfblock-line"></div>
+						<div class="pfblock-subtitle">
+							Click on one of the icons to see albums of my latest work.
+						</div>
+					</div>
+
+				</div>
+
+			</div><!-- .row -->
             
-            <!-- Regular Navigation Bar -->
-            <div class="container-fluid">
-                <ul class="nav navbar-nav">
-                    <li><a href="#photography">Photography</a></li>
-                    <li><a href="#hardware">Hardware</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#welcome">Welcome</a></li>
-                </ul>
-            </div>
-        </nav>
-
-        <!--End Navigation Bar-->
-
-        <!-- Welcome -->
-        <div class="container-fluid" id="welcome">
-            <div class="video-container">
-                <div class="tint"></div>
-                <video id="main-video" loop="true" autoplay="true" muted="true" preload="true"> 
-                    <source src="images/divergingdiamond.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="container text-center bg-white" id="welcometext">
-                <h1 class="display-4">Colton Henning</h1>
-                <p class="lead">Build. Play. Photograph.</p>
-            </div>
-        </div>
-
-        <!-- Starting the info pages -->
-        <div class="container-fluid text-center" id="about">
-            <div class="container text-center">
-                <h1>Who Am I</h1>
-                <div class="pfblock-line"></div>
-                <p>St. Louis University '22</p>
-                <p>Aviation Science</p>
-                <p>Engineer</p>
-                <p>Photographer</p>
-            </div>
-        </div>
-        
-
-        <div class="container-fluid text-center" id="hardware">
             
-            <div class="container text-center">
-                <h1>Hardware</h1>
-                <div class="pfblock-line"></div>
-                <p id="hardwarecap">I build stuff</p>
-            </div>
-
-            <div class="container cleanpics">     
-                    <div class="row">
-
-                        <div class="col-xs-12 col-sm-6 col-md-4">
-        
-                            <div class="grid wow zoomIn">
-                                <figure class="effect-bubba">
-                                    <img src="images/blurredworkshop.png">
-                                    <figcaption>
-                                        <h2>Sail<span>Boat</span></h2>
-                                        <p>I like the lake. I can sail very far on my cool boat</p>
-                                    </figcaption>
-                                </figure>
-                            </div>
-        
-                        </div>
-        
-                        <div class="col-xs-12 col-sm-6 col-md-4">
-        
-                            <div class="grid wow zoomIn">
-                                <figure class="effect-bubba">
-                                    <img src="images/blurredworkshop.png">
-                                    <figcaption>
-                                        <h2>3D <span>Printing</span></h2>
-                                        <p>Built my own 3D Printer and offer printing services for some $$$$$</p>
-                                    </figcaption>
-                                </figure>
-                            </div>
-        
-                        </div>
-        
-                        <div class="col-xs-12 col-sm-6 col-md-4">
-        
-                            <div class="grid wow zoomIn" >
-                                <figure class="effect-bubba">
-                                    <img src="images/blurredworkshop.png">
-                                    <figcaption>
-                                        <h2><span>Car</span> Stuff</h2>
-                                        <p>Rain X, clean windows, my own stereo, flex gang. Fixed my truck up to get all the ladies</p>
-                                    </figcaption>
-                                </figure>
-                            </div>
-        
-                        </div>
-        
+            <div class="row">
+                
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    
+                    <div class="grid wow zoomIn">
+                        <figure class="effect-bubba">
+                            <img class="workpics" src="https://images.unsplash.com/photo-1487253031786-9989fcd7bb73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="img01"/>
+                            <figcaption>
+                                <h2><span>Flight</span></h2>
+                                <p>Flight Photos from 2018-2019</p>
+                            </figcaption>			
+                        </figure>
                     </div>
-            </div>
-        </div>
-        <div class="container-fluid text-center" id="photography">
-            
-            <div class="container text-center">
-                <h1>Photography</h1>
-                <div class="pfblock-line"></div>
-                <p id="photographycap">I take pictures of stuff</p>
-            </div>
-
-            <div class="container">     
-                <div class="row">
-
-                    <div class="col-xs-12 col-sm-6 col-md-4">
-    
-                        <div class="grid wow zoomIn">
-                            <figure class="effect-bubba">
-                                <img src="images/blurredworkshop.png">
-                                <figcaption>
-                                    <h2>Sail<span>Boat</span></h2>
-                                    <p>I like the lake. I can sail very far on my cool boat</p>
-                                </figcaption>
-                            </figure>
-                        </div>
-    
-                    </div>
-    
-                    <div class="col-xs-12 col-sm-6 col-md-4">
-    
-                        <div class="grid wow zoomIn">
-                            <figure class="effect-bubba">
-                                <img src="images/blurredworkshop.png" alt="workshop">
-                                <figcaption>
-                                    <h2>3D <span>Printing</span></h2>
-                                    <p>Built my own 3D Printer and offer printing services for some $$$$$</p>
-                                </figcaption>
-                            </figure>
-                        </div>
-    
-                    </div>
-    
-                    <div class="col-xs-12 col-sm-6 col-md-4">
-    
-                        <div class="grid wow zoomIn" >
-                            <figure class="effect-bubba">
-                                <img src="images/blurredworkshop.png">
-                                <figcaption>
-                                    <h2><span>Car</span> Stuff</h2>
-                                    <p>Rain X, clean windows, my own stereo, flex gang. Fixed my truck up to get all the ladies</p>
-                                </figcaption>
-                            </figure>
-                        </div>
-    
-                    </div>
-        
+                    
                 </div>
-            </div> <!-- .contaier -->
-        </div> <!--#photography-->
-        <div class="container-fluid text-center" id="footer">
-            <h1>Fin for now</h1>
-            <p>Contact me at yadayada</p>
-        </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="js/main.js"></script>
-    </body>
+
+                <div class="col-xs-12 col-sm-4 col-md-4">
+            
+                    <div class="grid wow zoomIn">
+                        <figure class="effect-bubba">
+                            <img class="workpics" src="images/printpicdark.png" alt="img01"/>
+                            <figcaption>
+                                <h2>3D <span>Printing</span></h2>
+                                <p>Photos of the 3D Printer I personally made along with latest custom prints.</p>
+                            </figcaption>			
+                        </figure>
+                    </div>
+                    
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4">
+            
+                    <div class="grid wow zoomIn">
+                        <figure class="effect-bubba">
+                            <img class="workpics" src="images/colestarbackground.jpg" alt="img01"/>
+                            <figcaption>
+                                <h2><span>Photography</span></h2>
+                                <p>Photos and edits</p>
+                            </figcaption>			
+                        </figure>
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+
+		</div><!-- .contaier -->
+
+	</section>
+
+	<!-- Portfolio end -->
+
+	<!-- Contact start -->
+
+	<section id="contact" class="pf-block">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-6 col-sm-offset-3">
+
+					<div class="pfblock-header">
+						<h2 class="pfblock-title">Contact Me</h2>
+						<div class="pfblock-line"></div>
+						<div class="pfblock-subtitle">
+							Think we could work together? Send me an email directly at geohenning@gmail.com or using the form below
+						</div>
+					</div>
+
+				</div>
+
+			</div><!-- .row -->
+
+			<div class="row">
+
+				<div class="col-sm-6 col-sm-offset-3">
+
+					<form action="https://formspree.io/geohenning@gmail.com" id="contact-form" role="form">
+						<div class="ajax-hidden">
+							<div class="form-group wow fadeInUp">
+								<label class="sr-only" for="c_name">Name</label>
+								<input type="text" id="name" class="form-control" name="name" placeholder="Name">
+							</div>
+
+							<div class="form-group wow fadeInUp" data-wow-delay=".1s">
+								<label class="sr-only" for="c_email">Email</label>
+								<input type="email" id="c_email" class="form-control" name="email" placeholder="E-mail">
+							</div>
+
+							<div class="form-group wow fadeInUp" data-wow-delay=".2s">
+								<textarea class="form-control" id="c_message" name="message" rows="7" placeholder="Message"></textarea>
+							</div>
+
+							<button type="submit" class="btn btn-lg btn-block wow fadeInUp" data-wow-delay=".3s">Send Message</button>
+						</div>
+						<div class="ajax-response"></div>
+					</form>
+
+				</div>
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</section>
+
+	<!-- Contact end -->
+
+	<!-- Footer start -->
+
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-12">
+
+					<ul class="social-links">
+						<li><a href="https://www.linkedin.com/in/colton-henning-a41872171" class="wow fadeInUp"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://www.youtube.com/user/windows7323" class="wow fadeInUp" data-wow-delay=".1s"><i class="fa fa-youtube"></i></a></li>
+					</ul>
+
+				</div>
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</footer>
+
+	<!-- Footer end -->
+
+	<!-- Scroll to top -->
+
+	<div class="scroll-up">
+		<a href="#home"><i class="fa fa-angle-up"></i></a>
+	</div>
+    
+    <!-- Scroll to top end-->
+
+	<!-- Javascript files -->
+
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/jquery.parallax-1.1.3.js"></script>
+	<script src="js/imagesloaded.pkgd.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/wow.min.js"></script>
+    <script src="js/jquery.easypiechart.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.cbpQTRotator.js"></script>
+	<script src="js/custom.js"></script>
+
+</body>
 </html>
