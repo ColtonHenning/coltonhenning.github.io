@@ -10,7 +10,7 @@
 
 body {
 	/* font: 300 14px/1.8 'Raleway', sans-serif; */
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	color: #666;
 	overflow-x: hidden;
 }
@@ -70,6 +70,7 @@ a,
 /* ---------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
 	font: 700 40px/1.2 Raleway, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 5px;
