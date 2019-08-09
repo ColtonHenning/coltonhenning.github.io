@@ -458,6 +458,7 @@ textarea.form-control {
  * Contact
 /* ---------------------------------------------- */
 #contact {
+	padding-top: 120px;
 	margin-bottom: 50px;
 }
 .ajax-response {
