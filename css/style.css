@@ -344,7 +344,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #home {
-	background: url(https://images.unsplash.com/photo-1496054682147-258414043211?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80);
+	background: url(/images/coleplanedesktop.jpg);
 	background-color: #222;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -357,8 +357,8 @@ textarea.form-control {
 }
 
 .home-overlay {
-    background-color: rgba(44, 62, 80, 0.3);
-    background-image: url("../images/pattern.png");
+    background-color: rgba(0, 0, 0, 0.445);
+    /* background-image: url("../images/pattern.png"); */
     background-repeat: repeat;
     height: 100%;
     left: 0;
