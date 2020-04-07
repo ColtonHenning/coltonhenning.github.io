@@ -460,7 +460,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 #contact {
 	padding-top: 120px;
-	margin-bottom: 50px;
+	margin-bottom: 0;
 }
 .ajax-response {
 	text-align: center;
