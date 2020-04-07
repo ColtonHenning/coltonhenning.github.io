@@ -987,3 +987,13 @@ figure.effect-bubba:hover p {
 
 }
 
+@media screen and (min-width: 1012px) {
+	.skillrow {
+		display: flex;
+	}
+	
+	.iconbox {
+		flex-grow: 1;
+		height: 93%;
+	}
+}
